@@ -9,6 +9,7 @@ export default function Homepage() {
       .then((response) => response.json())
       .then((images) => {
         setImageList((prevState) => [...prevState, ...images]);
+        console.log(imageList);
       });
   }, []);
 
