@@ -11,6 +11,7 @@ export default function ImageTile(props) {
   //Isolate the top tags and give a max to the number we can display
   const topTags = props.image.tags.split(' ').slice(0, 4).join(' ');
 
+  //If the image doesn't have a title then we instead display "Image" - this gives the UI a more consistent look
   return (
     <div className="image_tile">
       <img src={props.image.media.m} alt={props.image.title}></img>
