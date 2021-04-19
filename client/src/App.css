@@ -21,9 +21,35 @@
   background-color: #ffffff;
 }
 
+.image_tile:hover {
+  box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+}
+
 .page_title {
   text-align: center;
-  color: #8a63d2;
+}
+
+.search_bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+input {
+  height: 25px;
+  width: 250px;
+}
+
+button {
+  background-color: #1a73e8;
+  color: #ffffff;
+  outline: none;
+  border: none;
+  margin: 2px;
+  border-radius: 3px;
+  padding: 8px;
 }
 
 img {
