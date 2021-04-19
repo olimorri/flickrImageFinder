@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { getImages } from './apiClientService';
+import { getImages } from './services/apiClientService';
 import ImageList from './imageList';
 
 export default function Homepage() {
